@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: rgb(223, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 38vw;
+    height: 60vh;
+    background-color: white;
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: 5;
+}
+.checkbox{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+.inputs{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+}
+.div-h1{
+    width: 20vw;
+    height: 8vh;
+    margin-top: 10vh;
+    margin-left: 4vw;
+}
+.input-interno{
+    height: 2vw;
+    width: 30vw;
+    outline-color: rgb(142, 216, 32);
+}
+.div-pass{
+    margin-top: 18px;
+}
+
+a{
+    margin-left: 160px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(87, 85, 85);
+}
+
+p{
+    font-size: 15px;
+}
+
+button{
+    height: 6vh;
+    width: 8vw;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.div-pai-checkbox{
+    width: 30.5vw;
+    display: flex;
+}
