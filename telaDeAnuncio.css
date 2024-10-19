@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(80, 79, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: 15vh;
+    background-color: #3E4851;
+    height: 70vh;
+    width: 87vw;
+}
+.div-iphone{
+    background-color: #3E4550;
+    box-shadow: 1px 5px 30px #000;
+    height: 60vh;
+    width: 17vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+.div-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+    gap: 15px;
+}
+.div-mac{
+    background-color: #3E4550;
+    box-shadow: 1px 5px 30px #000;
+    height: 60vh;
+    width: 17vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.div-pods{
+    background-color: #3E4550;
+    box-shadow: 1px 5px 30px #000;
+    height: 60vh;
+    width: 17vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.img-cards{
+    width: 100%;
+    height: 28vh;
+    border-radius: 15px 15px 0 0;
+}
+
+h2 {
+    color: white;
+    font-size: 18px;
+}
+p {
+    color: white;
+    font-size: 15px;
+}
+h3 {
+    color: #06E0F9;
+    font-size: 25px;
+}
